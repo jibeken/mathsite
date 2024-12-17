@@ -1,4 +1,4 @@
-/* Общие стили */
+ /* Общие стили */
 body, html {
     margin: 0;
     padding: 0;
@@ -105,3 +105,93 @@ body, html {
     text-align: center;
     padding: 20px 0;
   }
+  
+  /* Общие стили */
+ body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.links h2 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #000;
+}
+
+/* Секция формы */
+.form-section {
+    max-width: 500px;
+    margin-left: 20px;
+}
+
+.form-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input, select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #000;
+}
+
+input::placeholder {
+    color: #555;
+}
+
+.sign-up-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-up-btn:hover {
+    background-color: #333;
+}
+
+.privacy-text {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.privacy-text a {
+    color: #000;
+    text-decoration: underline;
+}

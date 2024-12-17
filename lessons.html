@@ -14,7 +14,7 @@
         <ul>
           <li><a href="mainpage.html">Главная</a></li>
           <li><a href="lessons.html">Уроки</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="contacts.html">О нас</a></li>
         </ul>
       </nav>
     </div>
@@ -23,38 +23,73 @@
   <main>
     <div class="container">
       <h2>Список всех доступных уроков.</h2>
-      <p>Здесь вы найдете объяснение тем по математике за 9-10 класс.</p>
+      <p>Здесь вы найдете объяснение тем по математике за 7-9 классы.</p>
     </div>
-  
+
+    <div class="container">
+      <h3>7-класс</h3>
+    </div>
     <div class="container">
       <section class="operations">
         <div class="cards">
           <div class="card">
-            <h3>Сложение</h3>
-            <p>Узнайте, как складывать числа.</p>
-            <button onclick="showDetails('addition')">Подробнее</button>
+            <h3>Основные правила решения неравенств:</h3>
+            <p>При решении неравенств используют следующие правила.</p>
+            <p> 1. Перенос слагаемых из одной части неравенства в другую с противоположным знаком, при этом знак неравенства не меняется.</p>
+            <p> 2. Умножение или деление на одно и то же положительное число обеих частей неравенства, не изменив при этом знак неравенства.</p>
+            <p> 3. Умножение или деление на одно и то же отрицательное число, изменив при этом знак неравенства на противоположный.</p>
+            <button onclick="showDetails('inequalities7')">Пример</button>
           </div>
           <div class="card">
-            <h3>Вычитание</h3>
-            <p>Изучите основы вычитания.</p>
-            <button onclick="showDetails('subtraction')">Подробнее</button>
+            <h3>Равносильные неравенства</h3>
+            <p>Равносильные неравенства — это неравенства, у которых одно и то же множество решений. Такие неравенства можно преобразовывать, не меняя их смысл.</p>
+                <p>Для этого используются два основных правила:</p>
+                <p>Если обе части неравенства сложить, вычесть или умножить на одно и то же положительное число, знак неравенства не изменяется.</p>
+                <p>Если обе части умножить или разделить на отрицательное число, то знак неравенства меняется на противоположный.</p>
+            <button onclick="showDetails('equivalentInequalities7')">Пример</button>
           </div>
-          <div class="card">
-            <h3>Умножение</h3>
-            <p>Научитесь умножать числа.</p>
-            <button onclick="showDetails('multiplication')">Подробнее</button>
-          </div>
-          <div class="card">
-            <h3>Деление</h3>
-            <p>Понимание деления.</p>
-            <button onclick="showDetails('division')">Подробнее</button>
-          </div>
-        </div>
       </section>
     </div>
-  </main>
 
+    <h3>8-класс</h3>
+  <section class="operations">
+    <div class="cards">
+      <div class="card">
+        <h3>Квадратные уравнения</h3>
+        <p>Решение квадратных уравнений через дискриминант.</p>
+        <p>Уравнения вида ax² + bx + c = 0</p>
+        <p>a ≠ 0</p>
+        <button onclick="showDetails('quadraticEquations8')">Пример</button>
+      </div>
+      <div class="card">
+        <h3>Свойства степеней</h3>
+        <p>Основные правила работы со степенями.</p>
+        <p>При умножении степеней с одинаковым основанием складываем показатели.</p>
+        <p>При делении — вычитаем показатели.</p>
+        <button onclick="showDetails('exponents8')">Пример</button>
+      </div>
+    </div>
+  </section>
 
+  <h3>9-класс</h3>
+  <section class="operations">
+    <div class="cards">
+      <div class="card">
+        <h3>Системы уравнений</h3>
+        <p>Несколько уравнений с переменными. Решаем подстановкой или сложением.</p>
+
+        <button onclick="showDetails('systemsEquations9')">Пример</button>
+      </div>
+      <div class="card">
+        <h3>Функции и их графики</h3>
+        <p>Функции и их графики</p>
+        <p>Функция — зависимость одной переменной от другой. Строим график, подставляя значения и находя точки.</p>
+        <button onclick="showDetails('functionsGraphs9')">Пример</button>
+      </div>
+    </div>
+      </section>
+    </div>
+</main>
 
   <script src="main.js"></script>
 
