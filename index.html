@@ -13,57 +13,48 @@
         <h1>Euclid Academy</h1>
         <nav>
           <ul>
-            
             <li><a href="index.html">Главная</a></li>
+            <li><a href="login.html">Вход в аккаунт</a></li>
             <li><a href="lessons.html">Уроки</a></li>
             <li><a href="contacts.html">О нас</a></li>
           </ul>
         </nav>
       </div>
     </header>
-
-    <main>
-      <section class="content">
-          <div class="links">
-              <h2>Teaching resources</h2>
-              <h2>Professional Development</h2>
-              <h2>Simple explanation</h2>
-          </div>
-
-          <div class="form-section">
-              <h3 class="form-title">Sign up to our newsletter</h3>
-              <p>Be the first to find out about our latest resources, training and events</p>
-              <form>
-                  <div class="input-group">
-                      <input type="text" placeholder="First name">
-                      <input type="text" placeholder="Last name">
-                  </div>
-                  <div class="input-group">
-                      <select>
-                          <option>I am a...</option>
-                          <option>Teacher</option>
-                          <option>Student</option>
-                          <option>Parent</option>
-                      </select>
-                      <input type="email" placeholder="Email address">
-                  </div>
-                  <p class="privacy-text">
-                      By submitting this form, you agree to receive marketing communications. You may unsubscribe at any time. Check our <a href="#">Privacy Policy</a>.
-                  </p>
-                  <button type="submit" class="sign-up-btn">SIGN UP</button>
-              </form>
-          </div>
-      </section>
-  </main>
-
-    <footer>
-      <div class="container">
-        <p>© 2024 Euclid. Все права защищены.</p>
+    <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-text">
+        <h2>Найдите репетитора по математике онлайн</h2>
+        <p>Повысьте свои знания с лучшими преподавателями по математике.</p>
       </div>
-    </footer>
-  </div>
 
-  <script src="main.js"></script>
+      <!-- Search Form -->
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Введите имя репетитора или тему">
+        <button onclick="searchTutor()">Найти</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tutors Section -->
+  <section class="tutors" id="tutors">
+    <div class="container">
+      <h3>Популярные репетиторы</h3>
+      <div class="tutor-list" id="tutorList">
+        <!-- Репетиторы будут динамически добавлены через JS -->
+         
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 Euclid. Все права защищены.</p>
+    </div>
+  </footer>
+</div>
+  <script src="index.js"></script>
 
 </body>
 </html>

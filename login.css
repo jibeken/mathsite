@@ -1,0 +1,143 @@
+/* Общие стили */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Белый фон для всего сайта */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #004466; /* Темно-синий цвет для хедера */
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 2.5rem 0;
+}
+
+header h1 {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    margin-top: -10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-right: 80px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff; /* Белый фон для контента */
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.links h2 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #000;
+}
+
+/* Секция формы */
+.form-section {
+    max-width: 500px;
+    margin-left: 20px;
+}
+
+.form-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input, select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #000;
+}
+
+input::placeholder {
+    color: #555;
+}
+
+.sign-up-btn {
+    background-color: #004466;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-up-btn:hover {
+    background-color: #333;
+}
+
+.privacy-text {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.privacy-text a {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #004466; /* Темно-синий цвет для футера */
+    color: #fff;
+    text-align: center;
+    padding: 0.9rem 0;
+}
